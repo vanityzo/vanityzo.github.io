@@ -1,0 +1,13 @@
+.navbar {
+    background:transparent;
+    border: transparent;
+}
+
+.navbar-inner {
+    background:transparent;
+    border: transparent;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #FFF;
+    background-color: #7c00ff;
