@@ -1,19 +1,13 @@
-html {
-  background: url("img/GRID02.jpg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
 }
-
-.darkfooter {
-  background-color: #111;
-}
-
-.darkfooter a {
-  color: #777;
-}
-
-.darkfooter p {
-  font-size: 12px;
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
