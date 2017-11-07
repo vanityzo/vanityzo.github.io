@@ -1,13 +1,19 @@
-.navbar {
-    background:transparent;
-    border: transparent;
+html {
+  background: url("img/GRID02.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-.navbar-inner {
-    background:transparent;
-    border: transparent;
+.darkfooter {
+  background-color: #111;
 }
 
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    color: #FFF;
-    background-color: #7c00ff;
+.darkfooter a {
+  color: #777;
+}
+
+.darkfooter p {
+  font-size: 12px;
+}
